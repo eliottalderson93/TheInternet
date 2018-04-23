@@ -1,0 +1,231 @@
+*/CSS reset basic*/
+* {
+    margin: 0px;
+    padding: 0px;
+    border: dashed 1px red;
+    
+}
+
+div{
+    width: auto;
+    height: 20%;
+    vertical-align:top;
+}
+ 
+img {
+    display: block;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    display:inline;
+}
+
+.wrapper{
+    background-color:white;
+    width: 1000px;
+    height: 500px;
+}
+
+.header{
+    background-color:red;
+    display: block;
+    width: 1000px;
+    height: 145px;
+}
+
+.header_top{
+    background-color: white;
+    display:block;
+    height:120px;
+    color: black;
+    font-style:bold;
+}
+
+.header_top img{
+    display:inline-block;
+}
+
+.header_bottom{
+    background-color: blue;
+    color: white;
+    font-size: 150%;
+    display:block;
+    height:57px;
+    margin-top: -20px;
+}
+
+.side_bar{
+    background-color:white;
+    display: inline-block;
+    vertical-align:top;
+    width: 185px;
+    height: 375px;
+    vertical-align:top;
+    margin-top: 12px;
+}
+
+.top_bar{
+    background-color:white;
+    font-style:bold;
+    font-size: 100%;
+    margin-top: -25px;
+    height: 40%;
+    border-bottom: solid gray;
+    margin: 5px;
+}
+
+.side_button{
+    background-color: white;
+    height:20px;
+    width:100%;
+}
+
+.side_button button{
+    width: 90%;
+    border-radius: 5px;
+    margin:auto;
+    background-color: orange;
+    color: white;
+    text-transform: capitalize;
+    font-weight:bold;
+    display: block;
+    border:none;
+    margin:2px;
+}
+
+.bottom_bar{
+    background-image: url(./images/ad_background.png);
+    display: inline-block;
+    color:white;
+    padding: 8px;
+    margin:auto;
+    width:100%;
+    height:60%;
+}
+
+
+
+.bottom_bar button{
+    margin:auto;
+    width:80%;
+    border-radius: 12px;
+    margin:auto;
+    background-color:cornflowerblue;
+    text-transform: capitalize;
+    font-weight:bold;
+    display: block;
+    border:none;
+}
+
+.ninja{
+    margin:auto;
+    width: 100px;
+}
+
+.main_page{
+    background-color: green;
+    display: inline-block;
+    height: 375px;
+    width: 810px;
+    vertical-align:top;
+    margin-top: 24px;
+}
+
+.main_header{
+    background-color: lightgray;
+    display:block;
+    padding:5px;
+}
+.left_main_header{
+    text-align:left;
+    height:40px;
+    width:100px;
+    size:20%;
+    display:inline-block;
+}
+.left_main_header img{
+    height:20px;
+    width:10px;
+}
+.phone{
+    margin-left:360px;
+    size:100%;
+    width: 50px;
+}
+
+.main_header img{
+    display:inline-block;
+}
+
+.main_header p{
+    display:inline-block;
+    font-size: 10px;
+    text-align:right;
+    margin-left:30px;
+    vertical-align: top;
+}
+
+.main_text{
+    background-color: white;
+    display:block;
+    height:525px;
+    padding: 20px;
+    font-size:90%;
+
+}
+.main_text img{
+    display:inline-block;
+    width:300px;
+    height:100px;
+    margin-left:200px;
+}
+
+.big3{
+    background-color: white;
+    display:block;
+    border-top: solid 5px blue;
+    border-right:solid 5px blue;
+    border-left: solid 5px blue;
+    height:125px;
+}
+.big3 img{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    vertical-align:top;
+}
+.big3_text{
+    display:inline-block;
+    margin-left:70px;
+    width:500px;
+}
+.big3 h3{
+    display:inline-block;
+    width:500px;
+    vertical-align:top;
+    font-size:10px;
+    margin-left:200px;
+}
+.big3 p{
+    display:inline-block;
+    width:500px;
+    vertical-align:top;
+    font-size:10px;
+}
+
+#second_button{
+    background-color: cornflowerblue;
+}
+
+.blue{
+    color:blue;
+}
